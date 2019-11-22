@@ -17,6 +17,7 @@ public class AppiumTest {
 	public void test2()
 	{
 		System.out.println("Second Appium test");
+		System.out.println("Added Git newly");
 	}
 	@Test
 	public void test3()
