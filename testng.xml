@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestNG">
+  
+  <groups>
+  <run>
+  <include name="smoke"/>
+  </run>
+  </groups>
+
+    <classes>
+      <class name="qaclickacademy.AppiumTest">
+            <methods>
+				<include name ="test3"/>      
+      		</methods>
+      </class>
+      <class name="qaclickacademy.SeleniumTest"/>
+      <class name="qaclickacademy.restApiTest"/>
+    </classes>
+  </test> <!-- TestNG -->
+</suite> <!-- Suite -->

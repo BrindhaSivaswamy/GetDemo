@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-06T14:36:59 EST" name="Suite" finished-at="2019-11-06T14:36:59 EST" duration-ms="65">
+    <groups>
+      <group name="smoke">
+        <method signature="AppiumTest.test1()[pri:0, instance:qaclickacademy.AppiumTest@473b46c3]" name="test1" class="qaclickacademy.AppiumTest"/>
+        <method signature="SeleniumTest.test2()[pri:0, instance:qaclickacademy.SeleniumTest@516be40f]" name="test2" class="qaclickacademy.SeleniumTest"/>
+        <method signature="restApiTest.test1()[pri:0, instance:qaclickacademy.restApiTest@3c0a50da]" name="test1" class="qaclickacademy.restApiTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2019-11-06T14:36:59 EST" name="TestNG" finished-at="2019-11-06T14:36:59 EST" duration-ms="65">
+      <class name="qaclickacademy.AppiumTest">
+        <test-method signature="test1()[pri:0, instance:qaclickacademy.AppiumTest@473b46c3]" started-at="2019-11-06T14:36:59 EST" name="test1" finished-at="2019-11-06T14:36:59 EST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:qaclickacademy.AppiumTest@473b46c3]" started-at="2019-11-06T14:36:59 EST" name="test2" finished-at="2019-11-06T14:36:59 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:qaclickacademy.AppiumTest@473b46c3]" started-at="2019-11-06T14:36:59 EST" name="test3" finished-at="2019-11-06T14:36:59 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- qaclickacademy.AppiumTest -->
+      <class name="qaclickacademy.restApiTest">
+        <test-method signature="test1()[pri:0, instance:qaclickacademy.restApiTest@3c0a50da]" started-at="2019-11-06T14:36:59 EST" name="test1" finished-at="2019-11-06T14:36:59 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:qaclickacademy.restApiTest@3c0a50da]" started-at="2019-11-06T14:36:59 EST" name="test2" finished-at="2019-11-06T14:36:59 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- qaclickacademy.restApiTest -->
+      <class name="qaclickacademy.SeleniumTest">
+        <test-method signature="test1()[pri:0, instance:qaclickacademy.SeleniumTest@516be40f]" started-at="2019-11-06T14:36:59 EST" name="test1" finished-at="2019-11-06T14:36:59 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:qaclickacademy.SeleniumTest@516be40f]" started-at="2019-11-06T14:36:59 EST" name="test2" finished-at="2019-11-06T14:36:59 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- qaclickacademy.SeleniumTest -->
+    </test> <!-- TestNG -->
+  </suite> <!-- Suite -->
+</testng-results>
